@@ -20,3 +20,7 @@ insert into AddressBook values
 ('Aryan','Raj','Sector14','Grugram','Haryana','800020','1234509876','aryan@yahoo.com')
 
 select* from AddressBook
+
+----UC4----------
+update AddressBook set FirstName='Aryan',LastName='Raj',Address='Munrika',City='Delhi',State='Delhi',
+Zipcode='800021',PhoneNumber='1234509876',Email='aryan@yahoo.com' where FirstName='Aryan'
