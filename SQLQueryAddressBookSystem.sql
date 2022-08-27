@@ -28,3 +28,7 @@ Zipcode='800021',PhoneNumber='1234509876',Email='aryan@yahoo.com' where FirstNam
 -----UC5------
 delete from AddressBook where FirstName='Aryan'
 select * from AddressBook
+
+-----UC6------
+select * from AddressBook where city='Noida'
+select * from AddressBook where State='UttarPardesh'
